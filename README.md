@@ -2,5 +2,5 @@
 Museum of Contemporary Art Chicago
 Web Development Fall 2025
 
-##Author
+## Author
 Maddy Asma
