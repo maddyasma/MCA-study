@@ -1,6 +1,45 @@
-h1, h2, h3 {
-    font-family: "Didact Gothic", sans-serif;  
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+h1{
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 50px;
+} 
+h2, h3, h4{
+    font-family: "Didact Gothic", sans-serif;
+} 
+h3 {
+     font-size: 30px;
+     padding-left: 10px;
+     color: blue;
+}
+h4 {
+    font-size: 20px;
+    color: blue;
+    border-bottom: 5px blue;
+}
+p {
+    font-family: "Didact Gothic", sans-serif;
+    padding-right:50%;
+    padding-left: 10px;
+    font-size: 22px;
 }
 img {
     width: 50%;
+    display:block;
+}
+.component {
+    max-width: initial;
+}
+.heading__img {
+    width: 30%;
+}
+.eventblock {
+    display: flex;
+    flex-direction: column;
 }
