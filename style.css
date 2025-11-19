@@ -27,7 +27,7 @@ p {
     font-family: "Didact Gothic", sans-serif;
     padding-right:50%;
     padding-left: 10px;
-    font-size: 22px;
+    font-size: 20px;
 }
 img {
     width: 50%;
@@ -65,4 +65,43 @@ img {
   font-size: 1.5rem;
   line-height: 1.5;
   padding: 0;
+}
+.nav-screenshot {
+  width: 15%;
+}
+
+.navbar {
+  display: block;
+  border: 1px solid black;
+  width: 200px;
+  height: 800px;
+  padding-top: 20px;
+
+}
+li a {
+  font-family: "Didact Gothic", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  line-height: 10px;
+}
+ul {
+  list-style-type: none;
+  line-height: 30px;
+}
+li a:hover {
+  text-decoration: underline black;
+}
+#smallMCA {
+  padding-bottom: 20px;
+}
+#bluelink {
+  color: blue;
+}
+.language {
+  font-family: "Didact Gothic", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-top: 300px;
 }
