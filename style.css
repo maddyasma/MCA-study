@@ -118,3 +118,44 @@ li a:hover {
   width: 170px;
   padding-top: 40px;
 }
+
+.exhibitions {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+.exhibit-card {
+  position: relative; 
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+}
+
+.exhibit-card img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10%; 
+  left: 5%;
+  width: 90%;  
+  background: white;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.caption .dates {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 .5rem 0;
+  letter-spacing: .1rem;
+}
+
+.caption .title {
+  margin: 0;
+  font-size: 1.15rem;
+}
