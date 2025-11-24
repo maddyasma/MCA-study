@@ -153,9 +153,11 @@ li a:hover {
   font-weight: 600;
   margin: 0 0 .5rem 0;
   letter-spacing: .1rem;
+  padding-right:0%;
 }
 
 .caption .title {
   margin: 0;
   font-size: 1.15rem;
+  padding-right:0%;
 }
